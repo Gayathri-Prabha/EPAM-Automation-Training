@@ -7,3 +7,4 @@
 2022-02-07 14:57:00,678 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-02-07 14:57:00,678 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Gayathriprabha_Malla\TestAutomation\testautomation\src\main\resources
 2022-02-07 14:57:00,680 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-07 14:57:00,680 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Gayathriprabha_Malla\TestAutomation\testautomation\src\test\resources
