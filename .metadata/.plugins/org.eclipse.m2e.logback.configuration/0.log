@@ -8,3 +8,144 @@
 2022-02-07 14:57:00,678 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Gayathriprabha_Malla\TestAutomation\testautomation\src\main\resources
 2022-02-07 14:57:00,680 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-02-07 14:57:00,680 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Gayathriprabha_Malla\TestAutomation\testautomation\src\test\resources
+2022-02-08 08:49:19,510 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-02-08 10:40:01,690 [Worker-26: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: TestAutomation:testautomation:0.0.1-SNAPSHOT @ C:\Users\Gayathriprabha_Malla\TestAutomation\testautomation\pom.xml.
+2022-02-08 10:40:01,918 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-08 10:40:01,919 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Gayathriprabha_Malla\TestAutomation\testautomation\src\main\resources
+2022-02-08 10:40:01,922 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-08 10:40:01,922 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Gayathriprabha_Malla\TestAutomation\testautomation\src\test\resources
+2022-02-08 10:40:03,045 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-08 10:40:03,045 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Gayathriprabha_Malla\TestAutomation\testautomation\src\main\resources
+2022-02-08 10:40:03,047 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-08 10:40:03,047 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Gayathriprabha_Malla\TestAutomation\testautomation\src\test\resources
+2022-02-08 10:54:35,790 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-08 10:54:35,790 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Gayathriprabha_Malla\TestAutomation\testautomation\src\main\resources
+2022-02-08 10:54:35,791 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-08 10:54:35,791 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Gayathriprabha_Malla\TestAutomation\testautomation\src\test\resources
+2022-02-08 10:54:44,961 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-08 10:54:44,961 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Gayathriprabha_Malla\TestAutomation\testautomation\src\main\resources
+2022-02-08 10:54:44,963 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-08 10:54:44,963 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Gayathriprabha_Malla\TestAutomation\testautomation\src\test\resources
+2022-02-08 11:01:45,585 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-08 11:01:45,585 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Gayathriprabha_Malla\TestAutomation\testautomation\src\main\resources
+2022-02-08 11:01:45,586 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-08 11:01:45,586 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Gayathriprabha_Malla\TestAutomation\testautomation\src\test\resources
+2022-02-08 11:05:07,057 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-08 11:05:07,057 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Gayathriprabha_Malla\TestAutomation\testautomation\src\main\resources
+2022-02-08 11:05:07,058 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-08 11:05:07,058 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Gayathriprabha_Malla\TestAutomation\testautomation\src\test\resources
+2022-02-08 11:08:24,041 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-08 11:08:24,041 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Gayathriprabha_Malla\TestAutomation\testautomation\src\main\resources
+2022-02-08 11:08:24,042 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-08 11:08:24,043 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Gayathriprabha_Malla\TestAutomation\testautomation\src\test\resources
+2022-02-08 11:10:02,658 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-08 11:10:02,659 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Gayathriprabha_Malla\TestAutomation\testautomation\src\main\resources
+2022-02-08 11:10:02,663 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-08 11:10:02,663 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Gayathriprabha_Malla\TestAutomation\testautomation\src\test\resources
+2022-02-08 11:13:32,219 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-08 11:13:32,219 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Gayathriprabha_Malla\TestAutomation\testautomation\src\main\resources
+2022-02-08 11:13:32,220 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-08 11:13:32,221 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Gayathriprabha_Malla\TestAutomation\testautomation\src\test\resources
+2022-02-08 11:18:44,623 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-08 11:18:44,623 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Gayathriprabha_Malla\TestAutomation\testautomation\src\main\resources
+2022-02-08 11:18:44,625 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-08 11:18:44,625 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Gayathriprabha_Malla\TestAutomation\testautomation\src\test\resources
+2022-02-08 11:20:00,642 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-08 11:20:00,643 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Gayathriprabha_Malla\TestAutomation\testautomation\src\main\resources
+2022-02-08 11:20:00,644 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-08 11:20:00,644 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Gayathriprabha_Malla\TestAutomation\testautomation\src\test\resources
+2022-02-08 11:20:16,283 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-08 11:20:16,284 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Gayathriprabha_Malla\TestAutomation\testautomation\src\main\resources
+2022-02-08 11:20:16,284 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-08 11:20:16,285 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Gayathriprabha_Malla\TestAutomation\testautomation\src\test\resources
+2022-02-08 11:20:44,528 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-08 11:20:44,529 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Gayathriprabha_Malla\TestAutomation\testautomation\src\main\resources
+2022-02-08 11:20:44,530 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-08 11:20:44,530 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Gayathriprabha_Malla\TestAutomation\testautomation\src\test\resources
+2022-02-08 11:27:05,915 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-08 11:27:05,915 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Gayathriprabha_Malla\TestAutomation\testautomation\src\main\resources
+2022-02-08 11:27:05,916 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-08 11:27:05,916 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Gayathriprabha_Malla\TestAutomation\testautomation\src\test\resources
+2022-02-08 11:27:14,341 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-08 11:27:14,341 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Gayathriprabha_Malla\TestAutomation\testautomation\src\main\resources
+2022-02-08 11:27:14,343 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-08 11:27:14,343 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Gayathriprabha_Malla\TestAutomation\testautomation\src\test\resources
+2022-02-08 11:27:30,918 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-08 11:27:30,918 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Gayathriprabha_Malla\TestAutomation\testautomation\src\main\resources
+2022-02-08 11:27:30,920 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-08 11:27:30,920 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Gayathriprabha_Malla\TestAutomation\testautomation\src\test\resources
+2022-02-08 11:34:47,487 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-08 11:34:47,487 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Gayathriprabha_Malla\TestAutomation\testautomation\src\main\resources
+2022-02-08 11:34:47,488 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-08 11:34:47,488 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Gayathriprabha_Malla\TestAutomation\testautomation\src\test\resources
+2022-02-08 11:43:12,398 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-08 11:43:12,398 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Gayathriprabha_Malla\TestAutomation\testautomation\src\main\resources
+2022-02-08 11:43:12,399 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-08 11:43:12,399 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Gayathriprabha_Malla\TestAutomation\testautomation\src\test\resources
+2022-02-08 11:59:00,773 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-08 11:59:00,773 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Gayathriprabha_Malla\TestAutomation\testautomation\src\main\resources
+2022-02-08 11:59:00,774 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-08 11:59:00,774 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Gayathriprabha_Malla\TestAutomation\testautomation\src\test\resources
+2022-02-08 12:06:03,899 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-08 12:06:03,899 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Gayathriprabha_Malla\TestAutomation\testautomation\src\main\resources
+2022-02-08 12:06:03,900 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-08 12:06:03,900 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Gayathriprabha_Malla\TestAutomation\testautomation\src\test\resources
+2022-02-08 12:10:08,778 [Worker-73: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: TestAutomation:testautomation:0.0.1-SNAPSHOT @ C:\Users\Gayathriprabha_Malla\TestAutomation\testautomation\pom.xml.
+2022-02-08 12:10:08,936 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-08 12:10:08,936 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Gayathriprabha_Malla\TestAutomation\testautomation\src\main\resources
+2022-02-08 12:10:08,938 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-08 12:10:08,939 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Gayathriprabha_Malla\TestAutomation\testautomation\src\test\resources
+2022-02-08 12:10:19,852 [Worker-73: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-02-08 12:10:20,023 [Worker-73: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: TestAutomation:testautomation:0.0.1-SNAPSHOT @ C:\Users\Gayathriprabha_Malla\TestAutomation\testautomation\pom.xml.
+2022-02-08 12:10:20,141 [Worker-73: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /testautomation/src/main/java
+2022-02-08 12:10:20,141 [Worker-73: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /testautomation/src/test/java
+2022-02-08 12:10:20,278 [Worker-73: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2022-02-08 12:10:20,492 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-08 12:10:20,492 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Gayathriprabha_Malla\TestAutomation\testautomation\src\main\resources
+2022-02-08 12:10:20,494 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-08 12:10:20,494 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Gayathriprabha_Malla\TestAutomation\testautomation\src\test\resources
+2022-02-08 12:22:50,603 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-08 12:22:50,604 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Gayathriprabha_Malla\TestAutomation\testautomation\src\main\resources
+2022-02-08 12:22:50,604 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-08 12:22:50,605 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Gayathriprabha_Malla\TestAutomation\testautomation\src\test\resources
+2022-02-08 12:24:10,236 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-08 12:24:10,237 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Gayathriprabha_Malla\TestAutomation\testautomation\src\main\resources
+2022-02-08 12:24:10,238 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-08 12:24:10,238 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Gayathriprabha_Malla\TestAutomation\testautomation\src\test\resources
+2022-02-08 12:28:31,207 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-08 12:28:31,207 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Gayathriprabha_Malla\TestAutomation\testautomation\src\main\resources
+2022-02-08 12:28:31,208 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-08 12:28:31,208 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Gayathriprabha_Malla\TestAutomation\testautomation\src\test\resources
+2022-02-08 12:45:49,402 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-08 12:45:49,402 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Gayathriprabha_Malla\TestAutomation\testautomation\src\main\resources
+2022-02-08 12:45:49,403 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-08 12:45:49,403 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Gayathriprabha_Malla\TestAutomation\testautomation\src\test\resources
+2022-02-08 14:07:54,372 [Worker-87: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: TestAutomation:testautomation:0.0.1-SNAPSHOT @ C:\Users\Gayathriprabha_Malla\TestAutomation\testautomation\pom.xml.
+2022-02-08 14:07:54,522 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-08 14:07:54,523 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Gayathriprabha_Malla\TestAutomation\testautomation\src\main\resources
+2022-02-08 14:07:54,525 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-08 14:07:54,525 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Gayathriprabha_Malla\TestAutomation\testautomation\src\test\resources
+2022-02-08 14:07:55,684 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-08 14:07:55,684 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Gayathriprabha_Malla\TestAutomation\testautomation\src\main\resources
+2022-02-08 14:07:55,685 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-08 14:07:55,685 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Gayathriprabha_Malla\TestAutomation\testautomation\src\test\resources
+2022-02-08 14:07:56,756 [Worker-78: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/junit/junit/4.13.2/junit-4.13.2-sources.jar
+2022-02-08 14:07:57,484 [Worker-78: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/junit/junit/4.13.2/junit-4.13.2-sources.jar
+2022-02-08 14:07:57,600 [Worker-78: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for junit:junit:4.13.2
+2022-02-08 14:07:57,788 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-08 14:07:57,788 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Gayathriprabha_Malla\TestAutomation\testautomation\src\main\resources
+2022-02-08 14:07:57,789 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-08 14:07:57,789 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Gayathriprabha_Malla\TestAutomation\testautomation\src\test\resources
+2022-02-08 14:08:06,567 [Worker-88: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-02-08 14:08:06,747 [Worker-88: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: TestAutomation:testautomation:0.0.1-SNAPSHOT @ C:\Users\Gayathriprabha_Malla\TestAutomation\testautomation\pom.xml.
+2022-02-08 14:08:06,893 [Worker-88: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /testautomation/src/main/java
+2022-02-08 14:08:06,894 [Worker-88: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /testautomation/src/test/java
+2022-02-08 14:08:06,941 [Worker-88: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2022-02-08 14:08:07,088 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-08 14:08:07,089 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Gayathriprabha_Malla\TestAutomation\testautomation\src\main\resources
+2022-02-08 14:08:07,091 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-08 14:08:07,091 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Gayathriprabha_Malla\TestAutomation\testautomation\src\test\resources
+2022-02-08 14:10:27,061 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-08 14:10:27,061 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Gayathriprabha_Malla\TestAutomation\testautomation\src\main\resources
+2022-02-08 14:10:27,062 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-08 14:10:27,062 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Gayathriprabha_Malla\TestAutomation\testautomation\src\test\resources
