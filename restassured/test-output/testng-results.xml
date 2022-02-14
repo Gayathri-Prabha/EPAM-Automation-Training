@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-14T08:50:00 IST" name="Default suite" finished-at="2022-02-14T08:50:03 IST" duration-ms="3000">
+    <groups>
+    </groups>
+    <test started-at="2022-02-14T08:50:00 IST" name="Default test" finished-at="2022-02-14T08:50:03 IST" duration-ms="3000">
+      <class name="TestAutomation.restassured.TestApiAssignment">
+        <test-method is-config="true" signature="testLogin()[pri:0, instance:TestAutomation.restassured.TestApiAssignment@5acf93bb]" started-at="2022-02-14T08:50:00 IST" name="testLogin" finished-at="2022-02-14T08:50:02 IST" duration-ms="2420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method signature="testApiPOSTResponse()[pri:0, instance:TestAutomation.restassured.TestApiAssignment@5acf93bb]" started-at="2022-02-14T08:50:02 IST" name="testApiPOSTResponse" finished-at="2022-02-14T08:50:02 IST" duration-ms="150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApiPOSTResponse -->
+        <test-method signature="testApiGETResponse()[pri:0, instance:TestAutomation.restassured.TestApiAssignment@5acf93bb]" started-at="2022-02-14T08:50:02 IST" name="testApiGETResponse" finished-at="2022-02-14T08:50:02 IST" depends-on-methods="TestAutomation.restassured.TestApiAssignment.testApiPOSTResponse" duration-ms="121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApiGETResponse -->
+        <test-method signature="testApiPUTResponse()[pri:0, instance:TestAutomation.restassured.TestApiAssignment@5acf93bb]" started-at="2022-02-14T08:50:02 IST" name="testApiPUTResponse" finished-at="2022-02-14T08:50:02 IST" depends-on-methods="TestAutomation.restassured.TestApiAssignment.testApiGETResponse" duration-ms="139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApiPUTResponse -->
+        <test-method signature="testApiDELETEResponse()[pri:0, instance:TestAutomation.restassured.TestApiAssignment@5acf93bb]" started-at="2022-02-14T08:50:02 IST" name="testApiDELETEResponse" finished-at="2022-02-14T08:50:03 IST" depends-on-methods="TestAutomation.restassured.TestApiAssignment.testApiPUTResponse" duration-ms="132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApiDELETEResponse -->
+      </class> <!-- TestAutomation.restassured.TestApiAssignment -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
