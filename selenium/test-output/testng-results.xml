@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-02-14T16:23:09 IST" name="Default suite" finished-at="2022-02-14T16:23:38 IST" duration-ms="28926">
+  <suite started-at="2022-02-16T00:32:10 IST" name="Default suite" finished-at="2022-02-16T00:33:44 IST" duration-ms="94474">
     <groups>
     </groups>
-    <test started-at="2022-02-14T16:23:09 IST" name="Default test" finished-at="2022-02-14T16:23:38 IST" duration-ms="28926">
-      <class name="TestAutomation.selenium.TestWebDriver">
-        <test-method signature="LoadWebDriver()[pri:0, instance:TestAutomation.selenium.TestWebDriver@614ca7df]" started-at="2022-02-14T16:23:09 IST" name="LoadWebDriver" finished-at="2022-02-14T16:23:38 IST" duration-ms="28894" status="PASS">
+    <test started-at="2022-02-16T00:32:10 IST" name="Default test" finished-at="2022-02-16T00:33:44 IST" duration-ms="94474">
+      <class name="TestAutomation.selenium.OrangehrmAssignment">
+        <test-method signature="LoadWebDriver()[pri:0, instance:TestAutomation.selenium.OrangehrmAssignment@614ca7df]" started-at="2022-02-16T00:32:10 IST" name="LoadWebDriver" finished-at="2022-02-16T00:33:44 IST" duration-ms="94443" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoadWebDriver -->
-      </class> <!-- TestAutomation.selenium.TestWebDriver -->
+      </class> <!-- TestAutomation.selenium.OrangehrmAssignment -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

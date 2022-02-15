@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestAutomation.selenium.TestWebDriver">
+      <class name="TestAutomation.selenium.OrangehrmAssignment">
         <methods>
           <include name="LoadWebDriver"/>
         </methods>
-      </class> <!-- TestAutomation.selenium.TestWebDriver -->
+      </class> <!-- TestAutomation.selenium.OrangehrmAssignment -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
