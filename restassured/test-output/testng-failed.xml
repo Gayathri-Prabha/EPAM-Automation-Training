@@ -5,10 +5,8 @@
     <classes>
       <class name="TestAutomation.restassured.TestApiAssignment">
         <methods>
-          <include name="testApiPUTResponse"/>
           <include name="testLogin"/>
-          <include name="testApiGETResponse"/>
-          <include name="testApiDELETEResponse"/>
+          <include name="testInvalidLogin"/>
         </methods>
       </class> <!-- TestAutomation.restassured.TestApiAssignment -->
     </classes>
