@@ -20,7 +20,7 @@ public class TestApiAssignment {
 	String token;
 	int id;
 	int random;
-	int a;
+	int num;
 	@BeforeTest
 	public void testLogin() {
 		RestAssured.baseURI = "http://restapi.adequateshop.com/api";
@@ -29,22 +29,22 @@ public class TestApiAssignment {
 				+ "	\"password\":123456789\r\n"
 				+ "}";
 		Random random = new Random();
-		a = random.nextInt(100);
+		num = random.nextInt(100);
 		token=given()
 				.header("Content-type","application/json")
 				.and()
 				.body(data)
-		.when()
-			.post("/authaccount/login")
-		.then()
-			.statusCode(200)
-			.extract().jsonPath().getString("data.Token");
+			.when()
+				.post("/authaccount/login")
+			.then()
+				.statusCode(200)
+				.extract().jsonPath().getString("data.Token");
 		System.out.println("Token is: "+token);
 	}
 	@Test
 	public void testApiPOSTResponse() {
 		String data = "{\r\n" + "\"id\":1234,\r\n" + " \"name\": \"RestAssured22\",\r\n"
-				+ " \"email\": \"RestAssured22222" +a+"@gmail.com\",\r\n"
+				+ " \"email\": \"RestAssured22" +num+"@gmail.com\",\r\n"
 				+ " \"profilepicture\": \"http://restapi.adequateshop.com/Media/Images/a97579ae-86ec-41db-8810-018ffd7dba3c.png\",\r\n"
 				+ " \"location\": \"Hyderabad, Telangana, India\",\r\n"
 				+ " \"createdat\": \"2020-05-05T07:25:56.5590666\"\r\n" + "}";
@@ -69,7 +69,6 @@ public class TestApiAssignment {
 		.then()
 			.statusCode(200);
 	}
-	
 	@Test(dependsOnMethods= {"testApiGETResponse"})
 	public void testApiPUTResponse() {
 		String data = "{\r\n" + "\"id\":"+id+",\r\n" + " \"name\": \"APIRestAssured20\",\r\n"
@@ -90,7 +89,6 @@ public class TestApiAssignment {
 	}
 	@Test(dependsOnMethods= {"testApiPUTResponse"})
 	public void testApiDELETEResponse() {
-		//String s="{data}";
 		given().pathParam("id",id)
 			.header("Authorization","Bearer "+token) 
 			.and()
