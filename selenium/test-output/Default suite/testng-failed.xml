@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestAutomation.selenium.orangeHRMPOM.pages.TestOrangeHRMLoginPage">
+      <class name="TestAutomation.selenium.listners.TestListners">
         <methods>
-          <include name="testLoginFunctionalityWithoutEnteringEachElement"/>
-          <include name="testLoginFunctionality"/>
+          <include name="testInvalidLogin"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- TestAutomation.selenium.orangeHRMPOM.pages.TestOrangeHRMLoginPage -->
+      </class> <!-- TestAutomation.selenium.listners.TestListners -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -4,13 +4,12 @@
   <test thread-count="5" name="Selenium(failed)">
     <parameter name="browserName" value="Firefox"/>
     <classes>
-      <class name="TestAutomation.selenium.orangeHRMPOM.pages.TestOrangeHRMLoginPage">
+      <class name="TestAutomation.selenium.listeners.TestListener">
         <methods>
-          <include name="testLoginFunctionalityWithoutEnteringEachElement"/>
-          <include name="testLoginFunctionality"/>
           <include name="setup"/>
+          <include name="testFailure"/>
         </methods>
-      </class> <!-- TestAutomation.selenium.orangeHRMPOM.pages.TestOrangeHRMLoginPage -->
+      </class> <!-- TestAutomation.selenium.listeners.TestListener -->
     </classes>
   </test> <!-- Selenium(failed) -->
 </suite> <!-- Failed suite [Automation] -->
