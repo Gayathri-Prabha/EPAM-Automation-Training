@@ -9,7 +9,7 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import TestAutomation.selenium.WebDriverFactory;
 
-@Listeners(IReporterImpl.class)
+@Listeners(ReporterListenerImpl.class)
 
 public class TestListener {
 	WebDriver driver;

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation">
+	<listeners>
+		<listener class-name="listeners.ReporterListenerImpl" />
+	</listeners>
+	<test name="Selenium">
+		<parameter name="BrowserName" value="Chrome"></parameter>
+		<parameter name="OrangeHRMTestExecutionPlatform" value="LocalWebDriver"></parameter>
+		<parameter name="OrangeHRMBaseURL" value="https://prasoonr-trials73.orangehrmlive.com/"></parameter>
+		<parameter name="OrangeHRMUsername" value="Admin"></parameter>
+		<parameter name="OrangeHRMPassword" value="U@qBLVtm09"></parameter>
+		<classes>
+			<class name="listeners.TestListener" />
+			<class name="listeners.TestReporterListener" />
+		</classes>
+	</test>
+</suite>

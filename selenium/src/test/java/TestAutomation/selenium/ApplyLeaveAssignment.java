@@ -57,4 +57,17 @@ public class ApplyLeaveAssignment {
 				  .clickCheckBalance()
 				  .verifyAvailableBalanceandClose();
 	}
+	
+	@Test(dependsOnMethods= {"testApplyLeave"})
+	public void testLeaveList()
+	{
+		LeaveList leaveList=new LeaveList(driver);
+		leaveList.clickLeaveListButton()
+				 .enterFromDate("Wed, 13 Jul 2022")
+				 .selectSubUnit()
+				 .selectArchitecture()
+				 .selectCheckBoxAll()
+				 .searchClick()
+				 .verifyRecordsNotFound();
+	}
 }

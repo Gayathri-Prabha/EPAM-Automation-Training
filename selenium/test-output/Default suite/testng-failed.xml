@@ -3,12 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestAutomation.selenium.listners.TestListners">
+      <class name="TestAutomation.selenium.ApplyLeaveAssignment">
         <methods>
-          <include name="testInvalidLogin"/>
+          <include name="testLogin"/>
           <include name="setup"/>
+          <include name="testLeaveList"/>
+          <include name="testApplyLeave"/>
         </methods>
-      </class> <!-- TestAutomation.selenium.listners.TestListners -->
+      </class> <!-- TestAutomation.selenium.ApplyLeaveAssignment -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestOrangeHRM]" guice-stage="DEVELOPMENT">
+  <parameter name="BrowserName" value="Firefox"/>
+  <parameter name="OrangeHRMPassword" value="U@qBLVtm09"/>
+  <parameter name="OrangeHRMUsername" value="Admin"/>
+  <parameter name="OrangeHRMTestExecutionPlatform" value="LocalWebDriver"/>
+  <parameter name="OrangeHRMBaseURL" value="https://prasoonr-trials73.orangehrmlive.com/"/>
+  <test thread-count="5" name="LoginPage(failed)">
+    <classes>
+      <class name="testcases.TestLoginPage">
+        <methods>
+          <include name="setStatus"/>
+          <include name="testLoginwithProxy"/>
+          <include name="setup"/>
+          <include name="close"/>
+          <include name="testLoginUsingJavascript"/>
+        </methods>
+      </class> <!-- testcases.TestLoginPage -->
+    </classes>
+  </test> <!-- LoginPage(failed) -->
+</suite> <!-- Failed suite [TestOrangeHRM] -->
