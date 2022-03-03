@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation">
+	<listeners>
+		<listener class-name="TestAutomation.selenium.listeners.ReporterListenerImpl" />
+	</listeners>
+	<test name="Selenium">
+		<parameter name="browserName" value="Chrome"></parameter>
+		<classes>
+			<class name="TestAutomation.selenium.listeners.TestListener" />
+			<class name="TestAutomation.selenium.listeners.TestReporterListener" />
+		</classes>
+	</test>
+</suite>

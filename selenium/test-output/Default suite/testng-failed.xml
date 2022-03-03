@@ -3,11 +3,22 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
+<<<<<<< HEAD
       <class name="TestAutomation.selenium.OrangeHRM">
+=======
+      <class name="TestAutomation.selenium.ApplyLeaveAssignment">
+>>>>>>> selenium
         <methods>
-          <include name="LoadWebDriver"/>
+          <include name="testLogin"/>
+          <include name="setup"/>
+          <include name="testLeaveList"/>
+          <include name="testApplyLeave"/>
         </methods>
+<<<<<<< HEAD
       </class> <!-- TestAutomation.selenium.OrangeHRM -->
+=======
+      </class> <!-- TestAutomation.selenium.ApplyLeaveAssignment -->
+>>>>>>> selenium
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
