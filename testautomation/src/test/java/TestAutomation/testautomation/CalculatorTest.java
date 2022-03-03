@@ -13,8 +13,8 @@ public class CalculatorTest extends TestCase{
 	}
 	@Test
 	public void testAdd() {
-		int res1=ob.add(2, 3);
-		assertEquals(5,res1);
+		int res1=ob.add(1, 3);
+		assertEquals(4,res1);
 	}
 	@Test
 	public void testSub() {

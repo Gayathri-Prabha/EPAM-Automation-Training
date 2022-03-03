@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestOrangeHRM">
+	<parameter name="BrowserName" value="Chrome"></parameter>
+	<parameter name="OrangeHRMTestExecutionPlatform" value="LocalWebDriver"></parameter>
+	<parameter name="OrangeHRMBaseURL" value="https://prasoonr-trials73.orangehrmlive.com/"></parameter>
+	<test name="LoginPage">
+		<classes>
+			<class name="TestAutomation.BDD.feature.CucumberDefinitionImpl" />
+			<class name="TestAutomation.BDD.feature.TestLoginPage" />
+		</classes>
+	</test>
+</suite>
