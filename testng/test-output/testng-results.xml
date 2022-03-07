@@ -1,33 +1,371 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+<testng-results ignored="0" total="30" passed="30" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-02-10T22:24:39 IST" name="Default suite" finished-at="2022-02-10T22:24:39 IST" duration-ms="67">
+  <suite started-at="2022-03-06T16:37:47 IST" name="TestLibrary" finished-at="2022-03-06T16:37:47 IST" duration-ms="120">
     <groups>
+      <group name="basicOperation">
+        <method signature="TestCatalogue.testCatalogueAddBook()[pri:0, instance:TestAutomation.testng.TestCatalogue@2b48a640]" name="testCatalogueAddBook" class="TestAutomation.testng.TestCatalogue"/>
+        <method signature="TestCatalogue.testCatalogueAddBooks(TestAutomation.testng.Book)[pri:0, instance:TestAutomation.testng.TestCatalogue@2b48a640]" name="testCatalogueAddBooks" class="TestAutomation.testng.TestCatalogue"/>
+        <method signature="TestCatalogue.testCatalogueAddBooks(int,java.lang.String,java.lang.String)[pri:0, instance:TestAutomation.testng.TestCatalogue@2b48a640]" name="testCatalogueAddBooks" class="TestAutomation.testng.TestCatalogue"/>
+        <method signature="TestCatalogue.testCatalogueRemoveNonExistingBook()[pri:0, instance:TestAutomation.testng.TestCatalogue@2b48a640]" name="testCatalogueRemoveNonExistingBook" class="TestAutomation.testng.TestCatalogue"/>
+        <method signature="TestCatalogue.testAddToLibraryWithSupportedObject()[pri:0, instance:TestAutomation.testng.TestCatalogue@2b48a640]" name="testAddToLibraryWithSupportedObject" class="TestAutomation.testng.TestCatalogue"/>
+        <method signature="TestCatalogue.testCatalogueRemoveBook()[pri:0, instance:TestAutomation.testng.TestCatalogue@2b48a640]" name="testCatalogueRemoveBook" class="TestAutomation.testng.TestCatalogue"/>
+      </group> <!-- basicOperation -->
+      <group name="Alltests">
+        <method signature="TestCatalogue.testARemoveNewlyAddedBook2()[pri:0, instance:TestAutomation.testng.TestCatalogue@2b48a640]" name="testARemoveNewlyAddedBook2" class="TestAutomation.testng.TestCatalogue"/>
+        <method signature="TestCatalogue.testAddToLibraryWithUnsupportedObject()[pri:0, instance:TestAutomation.testng.TestCatalogue@2b48a640]" name="testAddToLibraryWithUnsupportedObject" class="TestAutomation.testng.TestCatalogue"/>
+        <method signature="TestCatalogue.testCatalogueAddBook()[pri:0, instance:TestAutomation.testng.TestCatalogue@2b48a640]" name="testCatalogueAddBook" class="TestAutomation.testng.TestCatalogue"/>
+        <method signature="TestCatalogue.testARemoveNewlyAddedBook()[pri:0, instance:TestAutomation.testng.TestCatalogue@2b48a640]" name="testARemoveNewlyAddedBook" class="TestAutomation.testng.TestCatalogue"/>
+        <method signature="TestCatalogue.testCatalogueAddBooks(TestAutomation.testng.Book)[pri:0, instance:TestAutomation.testng.TestCatalogue@2b48a640]" name="testCatalogueAddBooks" class="TestAutomation.testng.TestCatalogue"/>
+        <method signature="TestCatalogue.testCatalogueAddBooks(int,java.lang.String,java.lang.String)[pri:0, instance:TestAutomation.testng.TestCatalogue@2b48a640]" name="testCatalogueAddBooks" class="TestAutomation.testng.TestCatalogue"/>
+        <method signature="TestCatalogue.testCatalogueRemoveNonExistingBook()[pri:0, instance:TestAutomation.testng.TestCatalogue@2b48a640]" name="testCatalogueRemoveNonExistingBook" class="TestAutomation.testng.TestCatalogue"/>
+        <method signature="TestCatalogue.testCatalogueSearchByAuthorname()[pri:0, instance:TestAutomation.testng.TestCatalogue@2b48a640]" name="testCatalogueSearchByAuthorname" class="TestAutomation.testng.TestCatalogue"/>
+        <method signature="TestCatalogue.testCatalogueSearchByAuthornameWhichDoesNotExist()[pri:0, instance:TestAutomation.testng.TestCatalogue@2b48a640]" name="testCatalogueSearchByAuthornameWhichDoesNotExist" class="TestAutomation.testng.TestCatalogue"/>
+        <method signature="TestCatalogue.testCatalogueSearchByBookName()[pri:0, instance:TestAutomation.testng.TestCatalogue@2b48a640]" name="testCatalogueSearchByBookName" class="TestAutomation.testng.TestCatalogue"/>
+        <method signature="TestCatalogue.testCatalogueSearchByBookNamePara(java.lang.String)[pri:0, instance:TestAutomation.testng.TestCatalogue@2b48a640]" name="testCatalogueSearchByBookNamePara" class="TestAutomation.testng.TestCatalogue"/>
+        <method signature="TestCatalogue.testAddToLibraryWithSupportedObject()[pri:0, instance:TestAutomation.testng.TestCatalogue@2b48a640]" name="testAddToLibraryWithSupportedObject" class="TestAutomation.testng.TestCatalogue"/>
+        <method signature="TestCatalogue.testCatalogueRemoveBook()[pri:0, instance:TestAutomation.testng.TestCatalogue@2b48a640]" name="testCatalogueRemoveBook" class="TestAutomation.testng.TestCatalogue"/>
+        <method signature="TestCatalogue.testCatalogueSearchByBookNamewhichDoesNotExist()[pri:0, instance:TestAutomation.testng.TestCatalogue@2b48a640]" name="testCatalogueSearchByBookNamewhichDoesNotExist" class="TestAutomation.testng.TestCatalogue"/>
+      </group> <!-- Alltests -->
     </groups>
-    <test started-at="2022-02-10T22:24:39 IST" name="Default test" finished-at="2022-02-10T22:24:39 IST" duration-ms="67">
-      <class name="TestAutomation.testng.TestLibrary">
-        <test-method is-config="true" signature="initializeLibrary()[pri:0, instance:TestAutomation.testng.TestLibrary@50ad3bc1]" started-at="2022-02-10T22:24:39 IST" name="initializeLibrary" finished-at="2022-02-10T22:24:39 IST" duration-ms="9" status="PASS">
+    <test started-at="2022-03-06T16:37:47 IST" name="LibraryFunctionality" finished-at="2022-03-06T16:37:47 IST" duration-ms="120">
+      <class name="TestAutomation.testng.TestCatalogue">
+        <test-method is-config="true" signature="initializeLibrary()[pri:0, instance:TestAutomation.testng.TestCatalogue@2b48a640]" started-at="2022-03-06T16:37:47 IST" name="initializeLibrary" finished-at="2022-03-06T16:37:47 IST" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeLibrary -->
-        <test-method is-config="true" signature="initializeMembers()[pri:0, instance:TestAutomation.testng.TestLibrary@50ad3bc1]" started-at="2022-02-10T22:24:39 IST" name="initializeMembers" finished-at="2022-02-10T22:24:39 IST" duration-ms="1" status="PASS">
+        <test-method signature="testAddToLibraryWithUnsupportedObject()[pri:0, instance:TestAutomation.testng.TestCatalogue@2b48a640]" started-at="2022-03-06T16:37:47 IST" name="testAddToLibraryWithUnsupportedObject" finished-at="2022-03-06T16:37:47 IST" duration-ms="4" status="PASS">
+          <exception class="TestAutomation.testng.LibraryObjectNotSupported">
+            <full-stacktrace>
+              <![CDATA[TestAutomation.testng.LibraryObjectNotSupported
+at TestAutomation.testng.Catalogue.addToLibrary(Catalogue.java:50)
+at TestAutomation.testng.TestCatalogue.testAddToLibraryWithUnsupportedObject(TestCatalogue.java:89)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- TestAutomation.testng.LibraryObjectNotSupported -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddToLibraryWithUnsupportedObject -->
+        <test-method signature="testCatalogueAddBook()[pri:0, instance:TestAutomation.testng.TestCatalogue@2b48a640]" started-at="2022-03-06T16:37:47 IST" name="testCatalogueAddBook" finished-at="2022-03-06T16:37:47 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCatalogueAddBook -->
+        <test-method is-config="true" signature="initializeLibrary()[pri:0, instance:TestAutomation.testng.TestCatalogue@2b48a640]" started-at="2022-03-06T16:37:47 IST" name="initializeLibrary" finished-at="2022-03-06T16:37:47 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeLibrary -->
+        <test-method signature="testCatalogueAddBooks(TestAutomation.testng.Book)[pri:0, instance:TestAutomation.testng.TestCatalogue@2b48a640]" started-at="2022-03-06T16:37:47 IST" name="testCatalogueAddBooks" data-provider="BookNamesV2" finished-at="2022-03-06T16:37:47 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestAutomation.testng.Book@433defed]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCatalogueAddBooks -->
+        <test-method signature="testCatalogueAddBooks(int,java.lang.String,java.lang.String)[pri:0, instance:TestAutomation.testng.TestCatalogue@2b48a640]" started-at="2022-03-06T16:37:47 IST" name="testCatalogueAddBooks" data-provider="BookNames" finished-at="2022-03-06T16:37:47 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Harry Potter]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[J K Rowling]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCatalogueAddBooks -->
+        <test-method signature="testCatalogueAddBooks(int,java.lang.String,java.lang.String)[pri:0, instance:TestAutomation.testng.TestCatalogue@2b48a640]" started-at="2022-03-06T16:37:47 IST" name="testCatalogueAddBooks" data-provider="BookNames" finished-at="2022-03-06T16:37:47 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wings of Fire]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[APJ Kalam]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCatalogueAddBooks -->
+        <test-method signature="testCatalogueAddBooks(int,java.lang.String,java.lang.String)[pri:0, instance:TestAutomation.testng.TestCatalogue@2b48a640]" started-at="2022-03-06T16:37:47 IST" name="testCatalogueAddBooks" data-provider="BookNames" finished-at="2022-03-06T16:37:47 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Believe]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Suresh Raina]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCatalogueAddBooks -->
+        <test-method signature="testCatalogueAddBooks(int,java.lang.String,java.lang.String)[pri:0, instance:TestAutomation.testng.TestCatalogue@2b48a640]" started-at="2022-03-06T16:37:47 IST" name="testCatalogueAddBooks" data-provider="BookNames" finished-at="2022-03-06T16:37:47 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Psycology of Money]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Morgan]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCatalogueAddBooks -->
+        <test-method signature="testCatalogueAddBooks(int,java.lang.String,java.lang.String)[pri:0, instance:TestAutomation.testng.TestCatalogue@2b48a640]" started-at="2022-03-06T16:37:47 IST" name="testCatalogueAddBooks" data-provider="BookNames" finished-at="2022-03-06T16:37:47 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rich Dad Poor Dad]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Robert]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCatalogueAddBooks -->
+        <test-method signature="testCatalogueAddBooks(int,java.lang.String,java.lang.String)[pri:0, instance:TestAutomation.testng.TestCatalogue@2b48a640]" started-at="2022-03-06T16:37:47 IST" name="testCatalogueAddBooks" data-provider="BookNames" finished-at="2022-03-06T16:37:47 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Zero to One]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Peter]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCatalogueAddBooks -->
+        <test-method signature="testCatalogueAddBooks(int,java.lang.String,java.lang.String)[pri:0, instance:TestAutomation.testng.TestCatalogue@2b48a640]" started-at="2022-03-06T16:37:47 IST" name="testCatalogueAddBooks" data-provider="BookNames" finished-at="2022-03-06T16:37:47 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Arthshashtra]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Kautilaya]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCatalogueAddBooks -->
+        <test-method signature="testCatalogueAddBooks(int,java.lang.String,java.lang.String)[pri:0, instance:TestAutomation.testng.TestCatalogue@2b48a640]" started-at="2022-03-06T16:37:47 IST" name="testCatalogueAddBooks" data-provider="BookNames" finished-at="2022-03-06T16:37:47 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[13]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[כנפי אש]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[קאוטיליה]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCatalogueAddBooks -->
+        <test-method signature="testCatalogueAddBooks(int,java.lang.String,java.lang.String)[pri:0, instance:TestAutomation.testng.TestCatalogue@2b48a640]" started-at="2022-03-06T16:37:47 IST" name="testCatalogueAddBooks" data-provider="BookNames" finished-at="2022-03-06T16:37:47 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[14]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[カウティラヤ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[カウティラヤ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCatalogueAddBooks -->
+        <test-method signature="testCatalogueAddBooks(int,java.lang.String,java.lang.String)[pri:0, instance:TestAutomation.testng.TestCatalogue@2b48a640]" started-at="2022-03-06T16:37:47 IST" name="testCatalogueAddBooks" data-provider="BookNames" finished-at="2022-03-06T16:37:47 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[考提拉亞]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[考提拉亞]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCatalogueAddBooks -->
+        <test-method signature="testCatalogueRemoveNonExistingBook()[pri:0, instance:TestAutomation.testng.TestCatalogue@2b48a640]" started-at="2022-03-06T16:37:47 IST" name="testCatalogueRemoveNonExistingBook" finished-at="2022-03-06T16:37:47 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCatalogueRemoveNonExistingBook -->
+        <test-method signature="testCatalogueSearchByAuthorname()[pri:0, instance:TestAutomation.testng.TestCatalogue@2b48a640]" started-at="2022-03-06T16:37:47 IST" name="testCatalogueSearchByAuthorname" finished-at="2022-03-06T16:37:47 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCatalogueSearchByAuthorname -->
+        <test-method signature="testCatalogueSearchByAuthornameWhichDoesNotExist()[pri:0, instance:TestAutomation.testng.TestCatalogue@2b48a640]" started-at="2022-03-06T16:37:47 IST" name="testCatalogueSearchByAuthornameWhichDoesNotExist" finished-at="2022-03-06T16:37:47 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCatalogueSearchByAuthornameWhichDoesNotExist -->
+        <test-method signature="testCatalogueSearchByBookName()[pri:0, instance:TestAutomation.testng.TestCatalogue@2b48a640]" started-at="2022-03-06T16:37:47 IST" name="testCatalogueSearchByBookName" finished-at="2022-03-06T16:37:47 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCatalogueSearchByBookName -->
+        <test-method signature="testCatalogueSearchByBookNamePara(java.lang.String)[pri:0, instance:TestAutomation.testng.TestCatalogue@2b48a640]" started-at="2022-03-06T16:37:47 IST" name="testCatalogueSearchByBookNamePara" finished-at="2022-03-06T16:37:47 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kauti]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCatalogueSearchByBookNamePara -->
+        <test-method signature="testAddToLibraryWithSupportedObject()[pri:0, instance:TestAutomation.testng.TestCatalogue@2b48a640]" started-at="2022-03-06T16:37:47 IST" name="testAddToLibraryWithSupportedObject" finished-at="2022-03-06T16:37:47 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddToLibraryWithSupportedObject -->
+        <test-method signature="testCatalogueRemoveBook()[pri:0, instance:TestAutomation.testng.TestCatalogue@2b48a640]" started-at="2022-03-06T16:37:47 IST" name="testCatalogueRemoveBook" finished-at="2022-03-06T16:37:47 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCatalogueRemoveBook -->
+        <test-method signature="testCatalogueSearchByBookNamewhichDoesNotExist()[pri:0, instance:TestAutomation.testng.TestCatalogue@2b48a640]" started-at="2022-03-06T16:37:47 IST" name="testCatalogueSearchByBookNamewhichDoesNotExist" finished-at="2022-03-06T16:37:47 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCatalogueSearchByBookNamewhichDoesNotExist -->
+        <test-method signature="testARemoveNewlyAddedBook2()[pri:0, instance:TestAutomation.testng.TestCatalogue@2b48a640]" started-at="2022-03-06T16:37:47 IST" name="testARemoveNewlyAddedBook2" depends-on-groups="basicOperation" finished-at="2022-03-06T16:37:47 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testARemoveNewlyAddedBook2 -->
+        <test-method signature="testARemoveNewlyAddedBook()[pri:0, instance:TestAutomation.testng.TestCatalogue@2b48a640]" started-at="2022-03-06T16:37:47 IST" name="testARemoveNewlyAddedBook" finished-at="2022-03-06T16:37:47 IST" depends-on-methods="TestAutomation.testng.TestCatalogue.testCatalogueAddBook" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testARemoveNewlyAddedBook -->
+      </class> <!-- TestAutomation.testng.TestCatalogue -->
+      <class name="TestAutomation.testng.TestLibrary">
+        <test-method is-config="true" signature="initializeLibrary()[pri:0, instance:TestAutomation.testng.TestLibrary@47987356]" started-at="2022-03-06T16:37:47 IST" name="initializeLibrary" finished-at="2022-03-06T16:37:47 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeLibrary -->
+        <test-method is-config="true" signature="initializeMembers()[pri:0, instance:TestAutomation.testng.TestLibrary@47987356]" started-at="2022-03-06T16:37:47 IST" name="initializeMembers" finished-at="2022-03-06T16:37:47 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeMembers -->
-        <test-method signature="testActiveUser()[pri:0, instance:TestAutomation.testng.TestLibrary@50ad3bc1]" started-at="2022-02-10T22:24:39 IST" name="testActiveUser" finished-at="2022-02-10T22:24:39 IST" duration-ms="6" status="PASS">
+        <test-method signature="testActiveUser()[pri:0, instance:TestAutomation.testng.TestLibrary@47987356]" started-at="2022-03-06T16:37:47 IST" name="testActiveUser" finished-at="2022-03-06T16:37:47 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testActiveUser -->
-        <test-method is-config="true" signature="initializeLibrary()[pri:0, instance:TestAutomation.testng.TestLibrary@50ad3bc1]" started-at="2022-02-10T22:24:39 IST" name="initializeLibrary" finished-at="2022-02-10T22:24:39 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializeLibrary -->
-        <test-method is-config="true" signature="initializeMembers()[pri:0, instance:TestAutomation.testng.TestLibrary@50ad3bc1]" started-at="2022-02-10T22:24:39 IST" name="initializeMembers" finished-at="2022-02-10T22:24:39 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializeMembers -->
-        <test-method signature="testAddMember(int,java.lang.String,java.lang.String,java.lang.String,int,java.lang.String)[pri:0, instance:TestAutomation.testng.TestLibrary@50ad3bc1]" started-at="2022-02-10T22:24:39 IST" name="testAddMember" data-provider="csvdataprovider1" finished-at="2022-02-10T22:24:39 IST" duration-ms="1" status="PASS">
+        <test-method signature="testAddMember(int,java.lang.String,java.lang.String,java.lang.String,int,java.lang.String)[pri:0, instance:TestAutomation.testng.TestLibrary@47987356]" started-at="2022-03-06T16:37:47 IST" name="testAddMember" data-provider="csvdataprovider1" finished-at="2022-03-06T16:37:47 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -63,15 +401,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAddMember -->
-        <test-method is-config="true" signature="initializeLibrary()[pri:0, instance:TestAutomation.testng.TestLibrary@50ad3bc1]" started-at="2022-02-10T22:24:39 IST" name="initializeLibrary" finished-at="2022-02-10T22:24:39 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializeLibrary -->
-        <test-method is-config="true" signature="initializeMembers()[pri:0, instance:TestAutomation.testng.TestLibrary@50ad3bc1]" started-at="2022-02-10T22:24:39 IST" name="initializeMembers" finished-at="2022-02-10T22:24:39 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="initializeMembers()[pri:0, instance:TestAutomation.testng.TestLibrary@47987356]" started-at="2022-03-06T16:37:47 IST" name="initializeMembers" finished-at="2022-03-06T16:37:47 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeMembers -->
-        <test-method signature="testAddMember(int,java.lang.String,java.lang.String,java.lang.String,int,java.lang.String)[pri:0, instance:TestAutomation.testng.TestLibrary@50ad3bc1]" started-at="2022-02-10T22:24:39 IST" name="testAddMember" data-provider="csvdataprovider1" finished-at="2022-02-10T22:24:39 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="initializeLibrary()[pri:0, instance:TestAutomation.testng.TestLibrary@47987356]" started-at="2022-03-06T16:37:47 IST" name="initializeLibrary" finished-at="2022-03-06T16:37:47 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeLibrary -->
+        <test-method is-config="true" signature="initializeMembers()[pri:0, instance:TestAutomation.testng.TestLibrary@47987356]" started-at="2022-03-06T16:37:47 IST" name="initializeMembers" finished-at="2022-03-06T16:37:47 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeMembers -->
+        <test-method is-config="true" signature="initializeLibrary()[pri:0, instance:TestAutomation.testng.TestLibrary@47987356]" started-at="2022-03-06T16:37:47 IST" name="initializeLibrary" finished-at="2022-03-06T16:37:47 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeLibrary -->
+        <test-method signature="testAddMember(int,java.lang.String,java.lang.String,java.lang.String,int,java.lang.String)[pri:0, instance:TestAutomation.testng.TestLibrary@47987356]" started-at="2022-03-06T16:37:47 IST" name="testAddMember" data-provider="csvdataprovider1" finished-at="2022-03-06T16:37:47 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -107,11 +453,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAddMember -->
-        <test-method is-config="true" signature="initializeLibrary()[pri:0, instance:TestAutomation.testng.TestLibrary@50ad3bc1]" started-at="2022-02-10T22:24:39 IST" name="initializeLibrary" finished-at="2022-02-10T22:24:39 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="initializeMembers()[pri:0, instance:TestAutomation.testng.TestLibrary@47987356]" started-at="2022-03-06T16:37:47 IST" name="initializeMembers" finished-at="2022-03-06T16:37:47 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeMembers -->
+        <test-method is-config="true" signature="initializeLibrary()[pri:0, instance:TestAutomation.testng.TestLibrary@47987356]" started-at="2022-03-06T16:37:47 IST" name="initializeLibrary" finished-at="2022-03-06T16:37:47 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeLibrary -->
-        <test-method signature="testAddMember(int,java.lang.String,java.lang.String,java.lang.String,int,java.lang.String)[pri:0, instance:TestAutomation.testng.TestLibrary@50ad3bc1]" started-at="2022-02-10T22:24:39 IST" name="testAddMember" data-provider="csvdataprovider1" finished-at="2022-02-10T22:24:39 IST" duration-ms="1" status="PASS">
+        <test-method signature="testAddMember(int,java.lang.String,java.lang.String,java.lang.String,int,java.lang.String)[pri:0, instance:TestAutomation.testng.TestLibrary@47987356]" started-at="2022-03-06T16:37:47 IST" name="testAddMember" data-provider="csvdataprovider1" finished-at="2022-03-06T16:37:47 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -147,47 +497,43 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAddMember -->
-        <test-method is-config="true" signature="initializeMembers()[pri:0, instance:TestAutomation.testng.TestLibrary@50ad3bc1]" started-at="2022-02-10T22:24:39 IST" name="initializeMembers" finished-at="2022-02-10T22:24:39 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="initializeLibrary()[pri:0, instance:TestAutomation.testng.TestLibrary@47987356]" started-at="2022-03-06T16:37:47 IST" name="initializeLibrary" finished-at="2022-03-06T16:37:47 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeLibrary -->
+        <test-method is-config="true" signature="initializeMembers()[pri:0, instance:TestAutomation.testng.TestLibrary@47987356]" started-at="2022-03-06T16:37:47 IST" name="initializeMembers" finished-at="2022-03-06T16:37:47 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeMembers -->
-        <test-method signature="testAddNewMember()[pri:0, instance:TestAutomation.testng.TestLibrary@50ad3bc1]" started-at="2022-02-10T22:24:39 IST" name="testAddNewMember" finished-at="2022-02-10T22:24:39 IST" duration-ms="1" status="PASS">
+        <test-method signature="testAddNewMember()[pri:0, instance:TestAutomation.testng.TestLibrary@47987356]" started-at="2022-03-06T16:37:47 IST" name="testAddNewMember" finished-at="2022-03-06T16:37:47 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAddNewMember -->
-        <test-method is-config="true" signature="initializeLibrary()[pri:0, instance:TestAutomation.testng.TestLibrary@50ad3bc1]" started-at="2022-02-10T22:24:39 IST" name="initializeLibrary" finished-at="2022-02-10T22:24:39 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="initializeLibrary()[pri:0, instance:TestAutomation.testng.TestLibrary@47987356]" started-at="2022-03-06T16:37:47 IST" name="initializeLibrary" finished-at="2022-03-06T16:37:47 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeLibrary -->
-        <test-method is-config="true" signature="initializeMembers()[pri:0, instance:TestAutomation.testng.TestLibrary@50ad3bc1]" started-at="2022-02-10T22:24:39 IST" name="initializeMembers" finished-at="2022-02-10T22:24:39 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="initializeMembers()[pri:0, instance:TestAutomation.testng.TestLibrary@47987356]" started-at="2022-03-06T16:37:47 IST" name="initializeMembers" finished-at="2022-03-06T16:37:47 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeMembers -->
-        <test-method is-config="true" signature="initializeLibrary()[pri:0, instance:TestAutomation.testng.TestLibrary@50ad3bc1]" started-at="2022-02-10T22:24:39 IST" name="initializeLibrary" finished-at="2022-02-10T22:24:39 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializeLibrary -->
-        <test-method is-config="true" signature="initializeMembers()[pri:0, instance:TestAutomation.testng.TestLibrary@50ad3bc1]" started-at="2022-02-10T22:24:39 IST" name="initializeMembers" finished-at="2022-02-10T22:24:39 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializeMembers -->
-        <test-method signature="testIssueBook()[pri:0, instance:TestAutomation.testng.TestLibrary@50ad3bc1]" started-at="2022-02-10T22:24:39 IST" name="testIssueBook" finished-at="2022-02-10T22:24:39 IST" duration-ms="1" status="PASS">
+        <test-method signature="testIssueBook()[pri:0, instance:TestAutomation.testng.TestLibrary@47987356]" started-at="2022-03-06T16:37:47 IST" name="testIssueBook" finished-at="2022-03-06T16:37:47 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testIssueBook -->
-        <test-method is-config="true" signature="initializeLibrary()[pri:0, instance:TestAutomation.testng.TestLibrary@50ad3bc1]" started-at="2022-02-10T22:24:39 IST" name="initializeLibrary" finished-at="2022-02-10T22:24:39 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializeLibrary -->
-        <test-method is-config="true" signature="initializeMembers()[pri:0, instance:TestAutomation.testng.TestLibrary@50ad3bc1]" started-at="2022-02-10T22:24:39 IST" name="initializeMembers" finished-at="2022-02-10T22:24:39 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializeMembers -->
-        <test-method signature="testdeActiveUser()[pri:0, instance:TestAutomation.testng.TestLibrary@50ad3bc1]" started-at="2022-02-10T22:24:39 IST" name="testdeActiveUser" finished-at="2022-02-10T22:24:39 IST" duration-ms="1" status="PASS">
+        <test-method signature="testdeActiveUser()[pri:0, instance:TestAutomation.testng.TestLibrary@47987356]" started-at="2022-03-06T16:37:47 IST" name="testdeActiveUser" finished-at="2022-03-06T16:37:47 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testdeActiveUser -->
+        <test-method is-config="true" signature="initializeLibrary()[pri:0, instance:TestAutomation.testng.TestLibrary@47987356]" started-at="2022-03-06T16:37:47 IST" name="initializeLibrary" finished-at="2022-03-06T16:37:47 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeLibrary -->
+        <test-method is-config="true" signature="initializeMembers()[pri:0, instance:TestAutomation.testng.TestLibrary@47987356]" started-at="2022-03-06T16:37:47 IST" name="initializeMembers" finished-at="2022-03-06T16:37:47 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeMembers -->
       </class> <!-- TestAutomation.testng.TestLibrary -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- LibraryFunctionality -->
+  </suite> <!-- TestLibrary -->
 </testng-results>
