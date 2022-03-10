@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Automation]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="RestAPI(failed)">
+    <parameter name="cookie" value="orangehrmSecurityAuthentication_LoginLocationTracker=e3afed0047b08059d0fada10f400c1e5; orangehrm=9ffa094cba661d26bdb8a475663610c6"/>
+    <parameter name="token" value="93ba6631555a37e3c9e2ab40c69b9ca34180f3d0"/>
+    <classes>
+      <class name="TestAutomation.RestAPIProject.OrangeHRM.RestAPIOrangeHRM">
+        <methods>
+          <include name="setup"/>
+          <include name="testAttendanceRecordsPunchOut"/>
+        </methods>
+      </class> <!-- TestAutomation.RestAPIProject.OrangeHRM.RestAPIOrangeHRM -->
+    </classes>
+  </test> <!-- RestAPI(failed) -->
+</suite> <!-- Failed suite [Automation] -->

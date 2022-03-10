@@ -3,18 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestAutomation.RestAPIProject.OrangeHRM.RestAPIOrangeHRM">
+      <class name="TestAutomation.SeleniumProject.OrangeHRM.TestAttendanceSheetPage">
         <methods>
-          <include name="testAttendanceSheet"/>
           <include name="setup"/>
-          <include name="testInvalidFormat"/>
-          <include name="testAttendanceRecordsPunchIn"/>
-          <include name="testConfig"/>
-          <include name="testDelete"/>
-          <include name="testAttendanceRecordsPunchOut"/>
-          <include name="testAttendanceSheetWithID"/>
+          <include name="testAttendanceSheet"/>
         </methods>
-      </class> <!-- TestAutomation.RestAPIProject.OrangeHRM.RestAPIOrangeHRM -->
+      </class> <!-- TestAutomation.SeleniumProject.OrangeHRM.TestAttendanceSheetPage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

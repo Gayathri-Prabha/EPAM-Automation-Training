@@ -2,8 +2,8 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Automation">
 	<test name="RestAPI">
-		<parameter name="token" value="5227e80b9193d4c8340c018f3a58f33c1af134f6"></parameter>
-		<parameter name="cookie" value="orangehrmSecurityAuthentication_LoginLocationTracker=e3afed0047b08059d0fada10f400c1e5; orangehrm=b76e7e058ecd8268c5ad4a6e32c6f771"></parameter>
+		<parameter name="token" value="93ba6631555a37e3c9e2ab40c69b9ca34180f3d0"></parameter>
+		<parameter name="cookie" value="orangehrmSecurityAuthentication_LoginLocationTracker=e3afed0047b08059d0fada10f400c1e5; orangehrm=9ffa094cba661d26bdb8a475663610c6"></parameter>
 		<classes>
 			<class name="TestAutomation.RestAPIProject.OrangeHRM.RestAPIOrangeHRM" />
 		</classes>
