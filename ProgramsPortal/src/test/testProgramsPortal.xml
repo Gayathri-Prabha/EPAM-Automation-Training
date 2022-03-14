@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestProgramsPortal">
+	<parameter name="BrowserName" value="Chrome"></parameter>
+	<parameter name="ProgramsPortalBaseURL" value="http://epinhydw0087/programs/#/"></parameter>
+	<parameter name="ProgramsPortalEmailAddress" value="gayathriprabhamallavarapu@epam.com"></parameter>
+	<parameter name="ProgramsPortalPassword" value="gayathri@123"></parameter>
+	<parameter name="SpeakersName" value="Gayathri Prabha Mallavarapu"></parameter>
+	<parameter name="SpeakersProfile" value="Automation"></parameter>
+	<test name="ProgramsPage">
+		<classes>
+			<class name="TestAutomation.ProgramsPortal.Selenium.TestCases.TestProgramsPortal" />
+		</classes>
+	</test>
+</suite>

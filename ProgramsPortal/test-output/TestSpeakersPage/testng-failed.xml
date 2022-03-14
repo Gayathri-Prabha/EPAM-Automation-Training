@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestSpeakersPage]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="SpeakersPage(failed)">
+    <classes>
+      <class name="TestAutomation.ProgramsPortal.RestAssured.TestRestAssured">
+        <methods>
+          <include name="testSpeakerDetailsWithID"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- TestAutomation.ProgramsPortal.RestAssured.TestRestAssured -->
+    </classes>
+  </test> <!-- SpeakersPage(failed) -->
+</suite> <!-- Failed suite [TestSpeakersPage] -->

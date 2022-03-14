@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-14T17:58:46 IST" name="TestSpeakersPage" finished-at="2022-03-14T17:58:48 IST" duration-ms="2285">
+    <groups>
+    </groups>
+    <test started-at="2022-03-14T17:58:46 IST" name="SpeakersPage" finished-at="2022-03-14T17:58:48 IST" duration-ms="2285">
+      <class name="TestAutomation.ProgramsPortal.Database.TestDatabase">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestAutomation.ProgramsPortal.Database.TestDatabase@1e0b4072]" started-at="2022-03-14T17:58:46 IST" name="setup" finished-at="2022-03-14T17:58:46 IST" duration-ms="441" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testSpeakerID()[pri:0, instance:TestAutomation.ProgramsPortal.Database.TestDatabase@1e0b4072]" started-at="2022-03-14T17:58:46 IST" name="testSpeakerID" finished-at="2022-03-14T17:58:46 IST" duration-ms="60" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSpeakerID -->
+      </class> <!-- TestAutomation.ProgramsPortal.Database.TestDatabase -->
+      <class name="TestAutomation.ProgramsPortal.RestAssured.TestRestAssured">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:TestAutomation.ProgramsPortal.RestAssured.TestRestAssured@45099dd3]" started-at="2022-03-14T17:58:46 IST" name="setup" finished-at="2022-03-14T17:58:47 IST" duration-ms="477" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@76a7fcbd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testSpeakerDetailsWithID()[pri:1, instance:TestAutomation.ProgramsPortal.RestAssured.TestRestAssured@45099dd3]" started-at="2022-03-14T17:58:47 IST" name="testSpeakerDetailsWithID" finished-at="2022-03-14T17:58:48 IST" duration-ms="1116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSpeakerDetailsWithID -->
+        <test-method signature="testAddSpeakerDetails()[pri:2, instance:TestAutomation.ProgramsPortal.RestAssured.TestRestAssured@45099dd3]" started-at="2022-03-14T17:58:48 IST" name="testAddSpeakerDetails" finished-at="2022-03-14T17:58:48 IST" duration-ms="158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddSpeakerDetails -->
+      </class> <!-- TestAutomation.ProgramsPortal.RestAssured.TestRestAssured -->
+    </test> <!-- SpeakersPage -->
+  </suite> <!-- TestSpeakersPage -->
+</testng-results>

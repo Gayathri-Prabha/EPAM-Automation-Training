@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestProgramsPortal]" guice-stage="DEVELOPMENT">
+  <parameter name="BrowserName" value="Chrome"/>
+  <parameter name="SpeakersProfile" value="Automation"/>
+  <parameter name="ProgramsPortalBaseURL" value="http://epinhydw0087/programs/#/"/>
+  <parameter name="ProgramsPortalEmailAddress" value="gayathriprabhamallavarapu@epam.com"/>
+  <parameter name="ProgramsPortalPassword" value="gayathri@123"/>
+  <parameter name="SpeakersName" value="Gayathri Prabha Mallavarapu"/>
+  <test thread-count="5" name="ProgramsPage(failed)">
+    <classes>
+      <class name="TestAutomation.ProgramsPortal.Selenium.TestCases.TestProgramsPortal">
+        <methods>
+          <include name="setUp"/>
+          <include name="testAddSpeakerPage"/>
+          <include name="tearDown"/>
+          <include name="testScreenshot"/>
+        </methods>
+      </class> <!-- TestAutomation.ProgramsPortal.Selenium.TestCases.TestProgramsPortal -->
+    </classes>
+  </test> <!-- ProgramsPage(failed) -->
+</suite> <!-- Failed suite [TestProgramsPortal] -->
